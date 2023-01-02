@@ -1,0 +1,16 @@
+# Cargo 사용하기
+
+러스트에 대해 읽기 시작하면 러스트 생태계에서 러스트 애플리케이션을 빌드하고 실행하는 데 사용되는 표준 도구인 [Cargo](https://doc.rust-lang.org/cargo/)를 곧 만나게 됩니다. 여기서 Cargo가 무엇인지, 더 넓은 생태계에 어떻게 적용되는지, 어떻게 이 교육에 적용되는지에 대한 간략한 개요를 제공하고자 합니다.
+
+데비안/우분투에서는 Cargo와 러스트 소스를 다음과 같이 설치할 수 있습니다.
+
+```shell
+$ sudo apt install cargo rust-src
+```
+
+이렇게 하면 [rust-analyzer][1]가 정의로 이동할 수 있습니다. [VS Code][2]를 사용하여 코드를 편집하는 것이 좋습니다(그러나 모든 LSP 호환 편집기가 작동함).
+
+참고: 할 수 있는 액세스/기능이 있는 경우 [rustup](https://rustup.rs/)을 통해 러스트의 도구를 설치하는 것이 좋습니다. 왜냐하면 이것이 나머지 생태계와 더 잘 통합되기 때문입니다.
+
+[1]: https://rust-analyzer.github.io/
+[2]: https://code.visualstudio.com/
